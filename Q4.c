@@ -23,10 +23,10 @@ int main(int argc, char **argv){
   int result = (ls-c)+(lt-c);
   if(result==0){
     if(k >= 2*c){
-      return 1;
+      printf("yes");
     }
     else {
-      return 0;
+      printf("no");
     }
   }
   if(result<=k){
