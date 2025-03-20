@@ -26,4 +26,5 @@ int main(){
       printf("FooBaa\n");
     }
   }
+  return 0;
 }
