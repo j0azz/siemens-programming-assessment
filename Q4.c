@@ -21,6 +21,14 @@ int main(int argc, char **argv){
     }
   }
   int result = (ls-c)+(lt-c);
+  if(result==0){
+    if(k >= 2*c){
+      return 1;
+    }
+    else {
+      return 0;
+    }
+  }
   if(result<=k){
     printf("yes");
   }
