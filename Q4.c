@@ -29,11 +29,13 @@ int main(int argc, char **argv){
       printf("no");
     }
   }
-  if(result<=k){
-    printf("yes");
-  }
   else {
-    printf("no");
+    if(result<=k){
+      printf("yes");
+    }
+    else {
+      printf("no");
+    }
   }
   return 0;
 }
